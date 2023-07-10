@@ -1,0 +1,426 @@
+
+
+
+#topcenterbtn{
+  position: absolute;
+  top: 10px ;
+  left: 50%;
+
+}
+
+
+
+
+
+
+#particles-js{
+    width: 100vw;
+    height: 10000;
+    background-color: #000000;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   z-index: 1;
+    position: fixed;
+  }
+  #main{
+    position: absolute;
+    z-index: 2;
+    color: white; 
+    left: 5%;
+    top: 50px;
+   height:100%;
+padding-bottom: 100px;
+overflow-y: scroll;
+
+}
+
+.particles-js-canvas-el
+{
+height: 100vh;
+}
+  ::-webkit-scrollbar {
+    background-color: black;
+  }
+  .border{
+    border: 1px dotted white;
+    margin: 2px 20px;
+    height: 100%;
+  }
+  .border img{
+    height: 100%;
+  }
+  
+  
+  body {
+    background-color: transparent;
+  
+    color: white;
+    position: relative;
+    font-family: 'Tilt Prism', cursive;
+    scroll-behavior: smooth;
+    letter-spacing: 2px;
+    overflow: scroll;
+  }
+  
+  ::-webkit-scrollbar {
+    background-color: black;
+  }
+  
+  
+  .width-70 {
+    width: 70%;
+    display: flex;
+    background-color: aqua
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+  
+  .vertical-nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 50px;
+    top: 40px;
+    font-size: 20px;
+    padding-right: 50px;
+  
+  
+  }
+  
+  .vertical-nav ul {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  .vertical-nav li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 40px 0;
+  }
+  
+  .vertical-nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  .not-letter-specing:hover {
+    list-style-type: none;
+    text-decoration: none;
+    letter-spacing: -5px;
+  }
+  
+  
+  .vertical-nav a:hover {
+    list-style-type: none;
+    text-decoration: none;
+    letter-spacing: 4px;
+    transition: all ease-in .1s;
+  }
+  
+  
+  .center-box-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  
+    right: 1px;
+    left: 100px;
+    top: 100px;
+  
+  
+  
+  }
+  
+  .height-100 {
+    height: 1000px;
+    padding-top: 200px;
+    padding: 300px 100px 100px 50px;
+    text-align: left;
+    width: 50%;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .img-center-container {
+    position: absolute;
+    margin-left: -200px;
+    z-index: -22;
+    margin-top: 100px;
+  
+  }
+  
+  .big-text {
+    font-size: 68px;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 400;
+  
+  }
+  
+  .big-text-md {
+    font-size: 48px;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 400;
+  
+  }
+  
+  
+  
+  .skill {
+    margin-top: 400px;
+    height: 700px;
+  }
+  
+  .contact {
+    height: 100%;
+  }
+  
+  #form {
+    height: 399px;
+    margin: 100px 0;
+    padding: 100px 0;
+  }
+  
+  #work {
+    margin: 100px 0;
+    filter: grayscale();
+  }
+  
+  .card {}
+  
+  .max-width {
+    display: flex;
+    align-items: flex-start;
+    width: 70%;
+    flex-direction: column;
+    margin-left: 44px;
+  }
+  
+  
+  
+  
+  /* min------------------ */
+  @media only screen and (min-width: 1440px) {
+  
+
+    .vertical-nav {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      right: 10%;
+      top: 20%;
+      font-size: 20px;
+      padding-right: 50px;
+  
+  
+    }
+  
+  
+  }
+  
+  /* min------------------ */
+  
+  
+  
+  
+  /* max------------------ */
+  /* max------------------ */
+  /* max------------------ */
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 1440px) {
+  
+  
+  
+    .vertical-nav {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      right: 5%;
+      top: 10%;
+      font-size: 20px;
+      padding-right: 50px;
+  
+  
+    }
+    
+   
+    #main{
+      position: absolute;
+      z-index: 2;
+      color: white; 
+      left: 5%;
+      top: 50px;
+     height:100vh;
+
+  overflow-y: scroll;
+  
+  
+  
+  
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    body {
+      background-color: black;
+  
+  
+  
+  
+  
+    }
+    
+    #main{
+      position: absolute;
+      z-index: 2;
+      color: white; 
+      left: 5%;
+      top: 50px;
+     height:95vh;
+  overflow-y: scroll;
+  
+  
+  
+  
+    }
+    .sm-nav {
+  
+      display: flex;
+      color: white;
+    }
+  
+    .vertical-nav {
+      display: none;
+  
+  
+    }
+  
+  
+    .height-100 {
+      height: 1000px;
+      padding-top: 200px;
+      padding: 300px 100px 100px 10px;
+      text-align: left;
+      width: 100%;
+  
+    }
+  
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: larger;
+    }
+  
+  
+  
+  
+    #work {
+      padding-bottom: 200px;
+  
+    }
+  
+    .mrt-2 {
+      margin-top: 50px;
+    }
+  
+  }
+  
+  
+  @media only screen and (max-width: 580px) {
+  
+    .height-100 {
+      height: 100%;
+  
+      padding: 10px 10px 10px 2px;
+      text-align: left;
+      width: 96%;
+    }
+  
+    .work,
+    .skill,
+    .skill-photo {
+  
+      height: 100%;
+      padding: 10px 10px;      width: 96%;
+
+    }#particles-js{
+      width: 100vw;
+      height: 10000;
+      background-color: #000000;
+      background-image: url('');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+     z-index: 1;
+      position: fixed;
+    }
+  
+    .big-text {
+      font-size: 40px;
+      font-family: "Tilt Prism", cursive;
+      font-weight: 400;
+      padding-left: 10px;
+    }
+  
+    #work {
+      padding-bottom: 170px;
+      margin: 50px 0;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 400px) {
+  
+    .height-100 {
+      height: 100%;
+  
+      padding: 10px 10px 10px 5px;
+      text-align: left;
+      width: 100%;
+    }
+  
+    .work,
+    .skill,
+    .skill-photo {
+  
+      height: 90%;
+      padding: 10px 10px;
+    }
+  
+    .big-text {
+      font-size: 48px;
+      font-family: "Tilt Prism", cursive;
+      font-weight: 400;
+      padding-left: 10px;
+    }
+  
+    .big-text-md {
+      font-size: 23px;
+      padding: 8px 7px;
+    }
+  
+    #form {
+      padding: 10px 10px;
+      padding-bottom: 100px;
+    }
+  }
